@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | 株式会社Trex</title>
+<meta name="description" content="変えたい・はじめたい・困った、があるとき。株式会社Trexへのお問い合わせはこちら。">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav id="nav"><div class="nav-inner">
+  <a href="index.html" class="logo"><img src="assets/logo.png" alt="Trex"></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="about.html">わたしたちについて</a></li>
+    <li><a href="service.html">事業紹介</a></li>
+    <li><a href="coexist.html">AI × Human</a></li>
+    <li><a href="values.html">大切にしていること</a></li>
+    <li><a href="contact.html" class="nav-cta">お問い合わせ</a></li>
+  </ul>
+  <button class="ham" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></button>
+</div></nav>
+
+<section class="page-hero">
+  <div class="sec-inner">
+    <div class="crumb"><a href="index.html">HOME</a><span>／</span>CONTACT</div>
+    <div class="sec-label">Contact</div>
+    <div class="pg-en">CONTACT</div>
+    <div class="pg-ja">お問い合わせ</div>
+    <p class="pg-lead">「AIで何ができるの？」からで構いません。<br>あなたの事業に合った活用法を、一緒に考えさせてください。</p>
+  </div>
+</section>
+
+<section style="padding:0 2rem;">
+  <div class="sec-inner contact-wrap">
+    <div class="contact-info">
+      <div class="ci">
+        <div class="ci-l">Web</div>
+        <div class="ci-v"><a href="https://www.tr-ex.co.jp/" target="_blank" style="color:inherit;text-decoration:none;">www.tr-ex.co.jp</a></div>
+        <div class="ci-s">公式サイト</div>
+      </div>
+      <div class="ci">
+        <div class="ci-l">Hours</div>
+        <div class="ci-v">平日 10:00〜18:00</div>
+        <div class="ci-s">土日祝休み</div>
+      </div>
+      <div class="ci">
+        <div class="ci-l">Response</div>
+        <div class="ci-v">原則 2 営業日以内</div>
+        <div class="ci-s">初回返信の目安</div>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="row">
+        <label>お名前 <span class="req">*</span></label>
+        <input type="text" name="name" required placeholder="山田 太郎">
+      </div>
+      <div class="row">
+        <label>会社名 / 屋号</label>
+        <input type="text" name="company" placeholder="株式会社◯◯">
+      </div>
+      <div class="row">
+        <label>メールアドレス <span class="req">*</span></label>
+        <input type="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div class="row">
+        <label>お電話番号</label>
+        <input type="tel" name="tel" placeholder="090-0000-0000">
+      </div>
+      <div class="row">
+        <label>ご興味のある事業</label>
+        <select name="service">
+          <option value="">選択してください</option>
+          <option>SNS自動運用</option>
+          <option>AI業務効率化コンサル</option>
+          <option>AI動画 × クリエイター制作</option>
+          <option>営業代行</option>
+          <option>まずは相談したい</option>
+        </select>
+      </div>
+      <div class="row">
+        <label>お問い合わせ内容 <span class="req">*</span></label>
+        <textarea name="message" required placeholder="現状の課題やご相談したい内容をご記入ください。"></textarea>
+      </div>
+      <div class="submit">
+        <button type="submit" class="cta-btn">送信する</button>
+      </div>
+      <p class="contact-note">※このフォームはデザイン確認用のデモです。実際のお問い合わせは <a href="https://www.tr-ex.co.jp/" target="_blank" style="color:var(--primary);">公式サイト</a> よりお願いいたします。</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="ft-inner">
+    <div class="ft-logo"><img src="assets/logo.png" alt="Trex"></div>
+    <div class="ft-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">わたしたちについて</a>
+      <a href="service.html">事業紹介</a>
+      <a href="coexist.html">AI × Human</a>
+      <a href="values.html">大切にしていること</a>
+      <a href="flow.html">ご利用の流れ</a>
+      <a href="contact.html">お問い合わせ</a>
+    </div>
+    <div class="ft-meta">
+      <p class="cp">© 2026 株式会社Trex All rights reserved.</p>
+      <span class="ft-sm">AI × Human — Coexist.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
