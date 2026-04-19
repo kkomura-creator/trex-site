@@ -148,8 +148,8 @@
         return lerpColor(colors[i],colors[i+1],seg-i);
       }
       var lineGrads=[
-        ['#5C3A1A','#8F5E2E','#B88853','#C4A274','#8F5E2E','#5C3A1A'],
-        ['#5C3A1A','#8F5E2E','#6B92AC','#7A6B95','#8F5E2E']
+        ['#D07820','#F09030','#F5B670','#F0C040','#F09030','#D07820'],
+        ['#D07820','#F09030','#F5B670','#4AA4DC','#2F87BD']
       ];
       setTimeout(function(){
         for(var li=0;li<2;li++){
